@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+.main{
+    width: 100%;
+    margin:auto;
+}
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+@font-face {
+    font-family: 'GOTHIC';
+    font-style: normal;
+    font-weight: normal;
+    src: local('GOTHIC'), url('fonts/GOTHIC.TTF') format('truetype');
+}
+/*-----------------*/
+.bgcolor{
+    width:100%;
+    height:75px;
+    background-color:#2c2f36;
+
+}
+.bgcolor a{
+    display: block;
+    padding-top:26px;
+    text-align: center;
+
+}
+/*--------------------*/
+.infohost{
+    width: 100%;
+    height:400px;
+    background-color: #e2e2e2;
+}
+.imgcloud{
+    float:left;
+    margin-left:10px;
+}
+.infotext{
+    width:50%;
+    float:right;
+    display:block;
+    margin:50px 60px 0 0;
+    font-family:"Myriad Pro Regular";
+}
+.infotext h1{
+    color:#16333f;
+    font-size:37pt;
+
+}
+.infotext p{
+    color:#16333f;
+    font-size:22pt;
+    margin-top:7px;
+}
+.infotext a{
+    display:inline-block;
+    padding:10px 36px;
+    background-color:#19a183;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+    font-size:15pt;
+    font-family:"Myriad Pro Regular";
+    border-radius: 7px;
+    -moz-border-radius:7px;
+    margin-top:30px;
+
+}
+.infotext a:hover{
+    background-color: #21caa2;
+}
+/*------------------*/
+#fact{
+    width:100%;
+    background-color: #f4f4f4;
+    height:80px;
+    font-family:"Myriad Pro Regular";
+}
+#fact p{
+
+    font-size: 16pt;
+    text-align: center;
+    color:#2c2f3a;
+    padding-top:20px;
+}
+#fact span{
+
+    display:block;
+    color:#2c2f3a;
+    font-size:13pt;
+    text-align: center;
+    font-style: italic;
+}
+/*-------------------*/
+#appMo{
+    width: 100%;
+    background-color:white;
+    font-family:"Myriad Pro Regular";
+    height:300px;
+
+}
+.imgapp{
+    width:40%;
+    float:right;
+    position: relative;
+    top:10px;
+    right:30px;
+}
+.imgapp .imgmon{
+    position: absolute;
+}
+.imgapp .imgmob{
+    position:absolute;
+    left:10px;
+    top:40px;
+
+}
+.txtapp{
+    width:30%;
+    margin:80px 0 0 200px;
+    font-family:"Myriad Pro Regular";
+}
+.txtapp h1{
+    color:#6f6f6f;
+    font-size: 22pt;
+
+}
+.txtapp p{
+    color:#6f6f6f;
+    font-size:18pt;
+    margin-top:15px;
+}
+/*-----------------------*/
+#iconb{
+    width: 100%;
+    background-color: #f4f4f4;
+    height:400px;
+    font-family:"Myriad Pro Regular";
+    font-size:24pt;
+    position: relative;
+}
+.section{
+    float:left;
+    width:140px;
+    height:200px;
+    padding-left:130px;
+    padding-right:160px;
+    margin-top:98px;
+
+}
+.section1{
+    float:left;
+    width:140px;
+    height:200px;
+    padding-left:130px;
+    padding-right:0px;
+
+    margin-top:98px;
+}
+.section p{
+    text-align: center;
+    margin-left:30px;
+}
+
+/*-----------------*/
+#footer{
+    width: 100%;
+    height:500px;
+
+}
+.test{
+    height:500px;
+    display:inline;
+    float:left;
+    width:10%;
+}
+.imgworld{
+    float:left;
+    position: relative;
+    top:80px;
+    left:140px;
+}
+#s1{
+    background-color: #15263a;
+}
+#s2{
+    background-color:#192b41 ;
+}
+#s3{
+    background-color:#1d3148;
+}
+#s4{
+    background-color:#243950 ;
+}
+#s5{
+    background-color:#1f334a ;
+}
+#s6{
+    background-color:#1b2f47 ;
+}
+#s7{
+    background-color:#1d3148 ;
+}
+#s8{
+    background-color: #243950;
+}
+#s9{
+    background-color:#1d3148 ;
+}
+#s10{
+    background-color:#243950 ;
+}
+#map{
+    position: absolute;
+}
+.imgworld .radial{
+    position: relative;
+}
+.imgworld .map{
+    position: absolute;
+    top:20px;
+    left:20px;
+
+}
+.txtworld{
+    font-family:GOTHIC;
+    color:white;
+    float:right;
+    width:50%;
+    margin:140px 0px 0 90px;
+}
+.txtworld h1{
+
+    font-size: 30pt;
+    margin-bottom: 10px;
+
+}
+.txtworld p{
+    font-size: 23px;
+    width:60%;
+
+}
+/*--------------------------*/
+.eee{
+  opacity: 0;
+}
+@-moz-keyframes fadeIn { from { opacity:0;} to {opacity:1;} }
+@-webkit-keyframes fadeIn { from { opacity:0;} to {opacity:1;} }
+@keyframes fadeIn { from { opacity:0;} to {opacity:1;} }
+
+.animate{
+    -moz-transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+        transition: 1s ease-in-out;
+
+    -moz-animation:fadeIn ease-in 1;
+    -webkit-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -moz-animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    /*arom arom zaher mishe yani 1s tol bekeshe zaher shodanesh*/
+    -moz-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+#phone.animate{
+    -moz-transform: translate(14em,0);
+    -webkit-transform: translate(14em,0);
+    transform: translate(14em,0);
+}
+#monitor.animate{
+    -moz-transform: translate(3em,0);
+    -webkit-transform: translate(3em,0);
+    transform: translate(3em,0);
+}
+/*---------*/
+.section{
+    opacity:0;
+}
